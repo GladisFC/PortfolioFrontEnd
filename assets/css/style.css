@@ -1,7 +1,34 @@
-
+body {
+    margin:0% ;
+    padding: 0%;
+}
 h4 {
     color:#2c2424dd; 
     text-align: center;
     margin: auto;
     font-size: 3rem;
+}
+#sobremi {
+    background-color: rgba(233, 211, 127, 0.761); 
+}
+
+#experiencia
+{
+    background-color:rgba(239, 151, 63, 0.732)
+}
+
+#educación {
+    background-color: rgb(156, 205, 235)
+}
+
+#habilidades {
+    background-color: rgb(159, 239, 159)
+}
+
+#proyectos {
+    background-color:rgb(219, 126, 141)
+}
+
+#navbar {
+    height: 1%;
 }
