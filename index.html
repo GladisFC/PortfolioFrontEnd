@@ -58,7 +58,7 @@
                     </li>
                 </ul>
   <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
+<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#loginModal">
     LOGIN
   </button>
 
@@ -79,10 +79,10 @@
 <!--Inicio Acerca de-->
     <section>
         <h4>A CERCA DE MI</h4>
-        <h1>Gladis Flores Cespedes</h1>
-        <img src="assets/img/20211002_085133.jpg">
-        <h3>Full Stack Developer Jr. </h3>
-        <h3>Estudiante de Porgramación</h3>
+        <h5>Gladis Flores Cespedes</h5>
+        <img src="assets/img/20211002_085133.jpg" title="Gladis Flores Cespedes">
+        <h5>Full Stack Developer Jr. </h5>
+        <h5>Estudiante de Porgramación</h5>
     </section>
 <!--Fin Acerca de-->
 
@@ -167,11 +167,25 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          ...
+
+          <!--mail-contraseña dentro del modal de login-->
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            
+
         </div>
+        <!--botones modal del login-->
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar/ Close</button>
-          <button type="button" class="btn btn-primary">Guardar cambios/ Save changes</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
         </div>
       </div>
     </div>

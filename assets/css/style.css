@@ -1,7 +1,7 @@
-* {
- font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 h4 {
-    color:#2c2424dd;
-    text-decoration:underline; 
+    color:#2c2424dd; 
+    text-align: center;
+    margin: auto;
+    font-size: 3rem;
 }
