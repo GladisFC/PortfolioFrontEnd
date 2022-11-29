@@ -1,34 +1,58 @@
 body {
-    margin:0% ;
-    padding: 0%;
+    margin: 0%;
+    padding: 0%;  
 }
-h4 {
-    color:#2c2424dd; 
-    text-align: center;
-    margin: auto;
-    font-size: 3rem;
+#navbar {
+background-color:rgba(144,174,188, 0.787) ;
 }
-#sobremi {
-    background-color: rgba(233, 211, 127, 0.761); 
-}
+
 
 #experiencia
 {
-    background-color:rgba(239, 151, 63, 0.732)
+    background-color:rgba(239, 151, 63, 0.732);
+    height:min-content;
+    width:auto;
 }
 
 #educación {
-    background-color: rgb(156, 205, 235)
+    background-color: rgb(156, 205, 235);
+    height:min-content;
+    width:auto;
 }
 
 #habilidades {
-    background-color: rgb(159, 239, 159)
+    background-color: rgb(159, 239, 159);
+    height:min-content;
+    width:auto;
 }
 
 #proyectos {
-    background-color:rgb(219, 126, 141)
+    background-color:rgb(219, 126, 141);
+    height: min-content;
+    width: auto;
 }
 
 #navbar {
-    height: 1%;
+   height:min-content;
+    width:auto;
+}
+
+#logoap{
+    
+        width: 46%;
+        height: auto;
+        margin: 0%
+
+        }   
+
+
+#fotoperfil {
+ width: 5rem;
+height: 7rem;}
+    
+#colfoto {
+background-color:  rgb(226, 194, 200);
+display: block;
+text-align: center;
+margin: auto;
 }
