@@ -1,5 +1,6 @@
 body{
     margin: 0rem;
+    padding: 0rem;
 }
 #navbar {
 background-color:rgba(180, 199, 208, 0.787) ;
@@ -11,3 +12,52 @@ background-color:rgba(180, 199, 208, 0.787) ;
         height: auto;
         margin: 0%
         }   
+
+        /*sobre mi*/
+
+#columnabaner {
+    background-color: rgb(266 201 206);
+}
+
+#columnafoto {
+    background-color: rgb(241, 227, 241);
+}
+
+#fotoperfil {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+.img-thumbnail{
+    border: 4px solid rgb(266 201 206);
+}        
+
+/* estilo del texto sobre mi*/
+#textsobremi {
+    
+    text-align: center;
+    font-size: large;
+    color:rgb(54, 51, 51);  
+}
+
+
+#estilolista {
+    border: 0.5mm solid rgb(229 164 146);
+ }
+
+ h4 {
+    text-decoration-line: underline;
+    font-family:fantasy;
+    font: size xx-large;
+    font-size: 2rem;
+    letter-spacing: 2mm;
+}
+
+#colorh4exp {
+    color: rgb(229 164 146);
+}
+#columnafotoexp{
+    margin-top: 0rem;
+    background-color: rgb(229, 164, 146); }

@@ -1,6 +1,8 @@
 body {
     margin: 0%;
-    padding: 0%;  
+    padding: 0%; 
+    display: flex;
+    justify-content: center; 
 }
 #navbar {
 background-color:rgba(144,174,188, 0.787) ;
@@ -56,6 +58,7 @@ margin-bottom: 2rem;
 }
 /* estilo del texto sobre mi*/
 #textsobremi {
+    text-align: center;
     font-size: x-large;
     font-family:'Segoe UI';
     font-weight: 400;
