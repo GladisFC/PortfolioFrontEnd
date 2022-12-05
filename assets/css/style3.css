@@ -50,7 +50,17 @@ body {
 #columnaexperiencia{
     background-color: rgb(229 164 146);
     margin-top: -1rem;
+   border-top:3mm solid rgb(229 164 146);
 }
+
+#columnaexperiencia2{
+    border-bottom: 3mm solid rgb(229 164 146);
+    border-left: 3mm solid rgb(229 164 146);
+    border-right:  3mm solid rgb(229 164 146);
+}
+
+
+
   
 
 #colorh4exp {
@@ -63,7 +73,13 @@ body {
     margin-bottom: 1%;
 }
 
-#contenedoreducacion{
-    border-top: 5mm;
-    border-bottom: 5mm;
+#columnaeducación1 {
+    background-color: rgb (299 189 146);
+    border-top: 3mm solid rgb (299 189 146) ;
+}
+
+#columnaeducación2{
+    border-left: 3mm solid rgb (299 189 146) ;
+    border-right: 3mm solid rgb (299 189 146) ;
+    border-bottom: 3mm solid rgb (299 189 146) ;
 }
