@@ -33,9 +33,10 @@ body {
 
     #fotoperfil {
         width: 20%;
-        height: 20%;
+        height: 80%;
         border-radius: 50%;
-        margin-top: 1rem;
+        margin-top: 2em;
+        
     }
     
        
@@ -49,7 +50,7 @@ body {
 
 #columnaexperiencia{
     background-color: rgb(229 164 146);
-    margin-top: -1rem;
+    margin-top: 0em;
    border-top:3mm solid rgb(229 164 146);
 }
 
@@ -61,25 +62,52 @@ body {
 
 
 
-  
-
-#colorh4exp {
-    color: rgb(229 164 146);
-    text-decoration-line: underline;
-    font-family:fantasy;
-    font: size xx-large;
-    font-size: 2rem;
-    letter-spacing: 2mm;
-    margin-bottom: 1%;
-}
-
 #columnaeducación1 {
-    background-color: rgb (299 189 146);
-    border-top: 3mm solid rgb (299 189 146) ;
+    background-color: rgb(229 189 146);
+   border-top:3mm solid rgb(229 189 146);
 }
 
-#columnaeducación2{
-    border-left: 3mm solid rgb (299 189 146) ;
-    border-right: 3mm solid rgb (299 189 146) ;
-    border-bottom: 3mm solid rgb (299 189 146) ;
+#columnaeducación2 {
+    border-bottom: 3mm solid rgb(229 189 146);
+    border-left: 3mm solid rgb(229 189 146);
+    border-right:  3mm solid rgb(229 189 146);
 }
+
+#columnahyf1 {
+    border-top: 3mm solid rgb(229 196 114);;
+    background-color: rgb(229 196 114);
+}
+   
+#columnaporcentajes {
+    border-bottom: 3mm solid rgb(229 196 114);
+    border-left: 3mm solid rgb(229 196 114);
+    border-right:  3mm solid rgb(229 196 114)
+}
+
+#columnaproyectos {
+    border-top: 3mm solid rgb(255 162 161);
+    background-color:rgb(255 162 161) ;
+}
+
+#columnaproyectos2 {
+    border-bottom: 3mm solid  rgb(255 162 161);
+    border-left: 3mm solid rgb(255 162 161) ;
+    border-right: 3mm solid rgb(255 162 161);
+}
+
+#columnas {
+    text-align: center;
+    font-size: 1em;
+    border: 1mm solid rgb(215, 212, 215);
+    font-family: monospace;
+    font-weight: 300;
+    text-align: center;
+}
+
+.a{
+    display: flex;
+    justify-content: center;
+    font-size:xx-small
+    
+}
+
