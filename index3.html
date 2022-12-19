@@ -18,9 +18,9 @@
 
 <body>
  <!--BARRA LOGO Y REDES SOCIALES-->
-
- <nav class="navbar navbar-expand-lg bg-light">
+ <nav class="navbar navbar-expand-lg bg-light" >
     <div class="container-fluid">
+    
  <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar/" target="blank">
     <img id="logoap" src="assets/img/arg-programa.png" alt="ArgentinaPrograma">
   </a> 
@@ -28,22 +28,21 @@
 <ul id="botones" class="list-group list-group-horizontal ml-right">
         <li class="list-group-item"> <a class="btn btn-light" target="blank" href="https://www.linkedin.com/in/gladis-flores-cespedes-387925257/" > <i class="fa-brands fa-linkedin"></i></a></li>
         <li class="list-group-item"> <a class="btn btn-light" target="blank" href="https://github.com/GladisFC"> <i class="fa-brands fa-github"></i></a></li>
-        <li class="list-group-item"> <a class="btn btn-light" target="blank" href="https://www.facebook.com/profile.php?id=100087336744946"><i class="fa-brands fa-facebook"></i></a></li>
         <li class="list-group-item"> <a class="btn btn-light" target="blank" href="https://www.instagram.com/gladisfc1991/"><i class="fa-brands fa-instagram"></i></a></li>
         <li class="list-group-item"> <a class="btn btn-light" target="blank" href="https://codepen.io/gladisfc"><i class="fa-brands fa-codepen"></i></a></li>
     </ul>   
        
 <!-- Button trigger modal -->
-
-<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#loginModal">
-LOGIN
-</button>
-  </div>
+<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#CerrarSesionModal"> CERRAR SECIÓN </button> 
+<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#loginModal"> LOGIN </button>
+</div>
 </nav>
-<div class="container-fluid" class="a">
+
+<!--LISTA ATAJOS-->
+<div class="container-fluid">
   <div class="row">
 <div class="col" id="columnas" >
-  <br><p><a href="#sobremi" class="btn btn-light"> SOBRE MI</a></p>
+  <br><p><a href="#columnafoto" class="btn btn-light"> SOBRE MI</a></p>
 </div>
 <div class="col" id="columnas">
 <br><p><a href="#experiencia" class="btn btn-light"> EXPERIENCIA</a></p>
@@ -59,8 +58,9 @@ LOGIN
       </div>
   </div>
 </div>
-<!--contenedor-->
-<div class="container-fluid text-center" id="sobremi">
+
+<!--contenedor BANNER FOTO INFO-->
+<div class="container-fluid text-center">
     <div class="row">
         <div class="col-12" id="columnabaner"><!--banner-->
             <img src="assets/img/2022-11-27.png" class="img-thumbnail" class="img-fluid">
@@ -72,12 +72,27 @@ LOGIN
           <div class="col-12" id="columnatexto">
             <p class="font-monospace" id="textsobremi">¡Hola!, soy Gladis Flores de Neuquén Capital, tengo 31 años. <br>Soy estudiante avanzada de Historia, y actualmente me dedico a dar clases particulares de ciencias sociales y didáctica. <br> Desde hace un año me involucre en el mundo de la programación y espero poder llegar muy lejos. Tengo el objetivo de poder usar estos nuevos conocimientos en mi carrera como docente, con el fin de crear material didáctico novedoso para mis futuros estudiantes.</p>
           </div>
+          <div class="col" class="font-monospace">
+            <a href="#logoap" class="btn btn-light"> SUBIR</a>
+          </div>
     </div>
 </div>
 
+  <!--BOTONES EDIT SOBRE MI-->
+  <section>
+  <div class="container text-center">
+    <div class="row align-items-start">
+      <div class="col">
+        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#edfotoModal">EDITAR FOTO </button>
+        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#edinfoModal">EDITAR INFO</button>
+      </div>
+    </div>
+    </div>
+</section>
 
-<div class="container-fluid text-center" id="experiencia"> <!--experiencia-->
-  <div class="row-12">
+<!--experiencia-->
+<div class="container-fluid text-center" id="experiencia"> 
+  <div class="row">
   <div class="col-12" id="columnaexperiencia">
     <img src="assets/img/2022-12-04 (2).png" class="img-fluid">
   </div>
@@ -93,11 +108,28 @@ LOGIN
     </tr>
     </table>
   </div>
+  <div class="col">
+    <a href="#logoap" class="btn btn-light"> SUBIR</a>
   </div>
-</div>  
-   
-<div class="container-fluid text-center" id="educación"><!--educación-->
-  <div class="row-12">
+  </div>
+</div> 
+
+  <!--BOTONES EDIT experiencia-->
+  <section>
+    <div class="container text-center">
+      <div class="row align-items-start">
+        <div class="col">
+          <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#editexperienciaModal">EDITAR </button>
+          <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#agregarexperienciaModal">AGREGAR PROYECTO </button>
+          <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#BorrarproyectoexpModal">BORRAR PROYECTO </button>
+        </div>
+      </div>
+      </div>
+  </section>
+
+ <!--educación-->  
+<div class="container-fluid text-center" id="educación">
+  <div class="row">
   <div class="col-12" id="columnaeducación1" > 
     <img src="assets/img/2022-12-06 (2).png" class="img-fluid">
   </div>
@@ -105,7 +137,7 @@ LOGIN
     <table class="table table-striped">
       <tr class="font-monospace">
           <th>Título</th>
-          <th>Instituación</th>
+          <th>Institución</th>
           <th>Nivel</th>
       </tr>
       <tr class="font-monospace">
@@ -130,10 +162,29 @@ LOGIN
       </tr>
      </table>
      </div>
+     <div class="col">
+      <a href="#logoap" class="btn btn-light"> SUBIR</a>
+    </div>
   </div>
 </div> 
-<div class="container-fluid text-center" id="habyfor"><!--habilidades y fortalezas-->
-  <div class="row-12">
+
+<!--BOTONES EDIT EDUCACIÓN-->
+<section>
+  <div class="container text-center">
+    <div class="row align-items-start">
+      <div class="col">
+        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#editeduModal">EDITAR</button>
+        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#agregareduModal">AGREGAR </button>
+        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#BorrareduModal">BORRAR </button>
+    </div>
+      </div>
+    </div>
+    </div>
+</section>
+
+<!--habilidades y fortalezas-->
+<div class="container-fluid text-center" id="habyfor">
+  <div class="row">
   <div class="col-12" id="columnahyf1" > 
     <img src="assets/img/2022-12-06.png" class="img-fluid">
   </div>
@@ -142,10 +193,28 @@ LOGIN
 <br>
 <br>
   </div>
+  <div class="col">
+    <a href="#logoap" class="btn btn-light"> SUBIR</a>
+  </div>
 </div>
 </div>
-<div class="container-fluid text-center" id="proyectos"><!--proyecto-->
-  <div class="row-12">
+
+<!--BOTONES EDIT HABILIDADES Y FORTALEZAS-->
+<section>
+  <div class="container text-center">
+    <div class="row align-items-start">
+      <div class="col">
+        <button class="btn btn-light">EDITAR</button>
+        <button class="btn btn-light">AGREGAR INFO</button>
+        <button class="btn btn-light">BORRAR</button>
+      </div>
+    </div>
+    </div>
+</section>
+
+<!--proyecto-->
+<div class="container-fluid text-center" id="proyectos">
+  <div class="row">
   <div class="col-12" id="columnaproyectos" > 
     <img src="assets/img/2022-12-06 (1).png" class="img-fluid">
   </div>
@@ -161,20 +230,56 @@ LOGIN
           <td>2022</td>
           <td>Portfolio Web realizado con diversas tecnologías. <br>Front-End: HTML, CSS, bootstrap <br> Bases de Datos:... <br> Back-End:... </td>        
       </tr>
-  </div>
+    </table>   
+  </div> 
+  <div class="col">
+  <a href="#logoap" class="btn btn-light">SUBIR</a>
   </div>
 </div>
+</div>
+ <!--BOTONES EDIT PROYECTOS-->
+<section>
+  <div class="container text-center">
+    <div class="row align-items-start">
+      <div class="col">
+        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#editproyectoModal">EDITAR</button>
+        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#agregarproModal">AGREGAR </button>
+        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#BorrarproModal">BORRAR </button>
+   
+      </div>
+    </div>
+    </div>
+</section>
 
 
 
 
 
-<!--MODAL LOGIN-->
-<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!--MODAL CERRAR SESIÓN-->
+<div class="modal fade" id="CerrarSesionModal" tabindex="-1" aria-labelledby="CerrarSesionModal" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">LOGIN</h1>
+          <h1 class="modal-title fs-5" id="CerrarSesionModal">CERRAR SESIÓN</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+           <P>¿Desea cerrar sesión?</P>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-light" data-bs-dismiss="modal">NO</button>
+          <button type="button" class="btn btn-light"data-bs-dismiss="modal">SI</button> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--MODAL LOGIN-->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="loginModal">LOGIN</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -184,24 +289,318 @@ LOGIN
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Email</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-
+            </div>
             <div class="mb-3">
               <label for="exampleInputPassword1" class="form-label">Contraseña</label>
               <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
-            
-
-        </div>
+       
         <!--botones modal del login-->
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-          <button type="submit" class="btn btn-primary">Enviar</button>
+          <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cerrar</button>
+          <button type="submit" class="btn btn-light">Enviar</button>
+          </div>
           </form>
-        </div>
-      </div>
+        </div> 
+    </div>
     </div>
   </div>
 
+ <!--MODAL EDICIÓN FOTO--> 
+ <div class="modal fade" id="edfotoModal" tabindex="-1" aria-labelledby="edfotoModal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="edfotoModal"> Cambiar foto de perfil</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!--formulario-->
+        <form>
+          <div class="mb-3">
+            <label for="editfoto" class="form-label"> Foto de perfil </label>
+            <input type="url" placeholder="inserte url de imegen" id="editfoto" name="editfoto" required>
+      </div>
+      <!--botones-->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Descartar</button>
+        <button type="submit" class="btn btn-light">Enviar</button>
+        </form>
+      </div>
+    </div>
+    </div>
+  </div>
+  </div>
+
+  <!--MODAL EDITAR INFO-->
+ <div class="modal fade" id="edinfoModal" tabindex="-1" aria-labelledby="edinfoModal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="edinfoModal">EDITAR INFORMACIÓN</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <!--mail-contraseña dentro del modal de login-->
+        <form>
+          <div class="mb-3">
+            <label for="infosobremi" class="form-label">Nueva información</label>
+            <textarea class="form-control" id="infosobremi" aria-describedby="nueva información"> </textarea>
+          </div>
+
+      <!--botones modal del login-->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cerrar</button>
+          <button type="submit" class="btn btn-light">Guardar y Enviar</button>
+          </div>
+          </form>
+        </div> 
+    </div>
+    </div>
+  </div>
+
+  <!--MODAL EDITAR EXPE-->
+ <div class="modal fade" id="editexperienciaModal" tabindex="-1" aria-labelledby="editexperienciaModal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="edinfoModal">EDITAR PROYECTOS</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="añoproyectoexp" class="form-label">Año</label>
+            <input type="date" class="form-control" id="añoproyectoexp">
+        </div>
+          <div class="mb-3">
+            <label for="proyectoexp" class="form-label">Proyecto</label>
+            <input type="text" class="form-control" id="proyectoexp" aria-describedby="nueva información"> 
+          </div>   
+        <div class="modal-footer">
+          <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cerrar</button>
+          <button type="submit" class="btn btn-light">Guardar y Enviar</button>
+          </div>
+          </form>
+        </div> 
+    </div>
+    </div>
+  </div>
+
+  <!--MODAL AGREGAR EXPERIENCIA-->
+  <div class="modal fade" id="agregarexperienciaModal" tabindex="-1" aria-labelledby="agregarexperienciaModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="agregarexperienciaModal">AGREGAR PROYECTOS</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="añonuevoproyectoexp" class="form-label">Año</label>
+              <input type="date" class="form-control" id="añonuevoproyectoexp">
+          </div>
+            <div class="mb-3">
+              <label for="nuevoproyectoexp" class="form-label">Proyecto</label>
+              <input type="text" class="form-control" id="nuevoproyectoexp" aria-describedby="nuevo"> </textarea>
+            </div>   
+          <div class="modal-footer">
+            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cerrar</button>
+            <button type="submit" class="btn btn-light">Guardar y Enviar</button>
+            </div>
+            </form>
+          </div> 
+      </div>
+      </div>
+    </div>
+
+    <!--BORRAR PROYECTOS EXPERIENCIA-->
+    <div class="modal fade" id="BorrarproyectoexpModal" tabindex="-1" aria-labelledby="BorrarproyectoexpModal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="BorrarproyectoexpModal">CERRAR SESIÓN</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+             <P>¿Desea borrar el proyecto definitivamente?</P>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-light" data-bs-dismiss="modal">NO</button>
+            <button type="button" class="btn btn-light"data-bs-dismiss="modal">SI</button> 
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!--MODAL EDITAR EDUCACIÓN-->
+  <div class="modal fade" id="editeduModal" tabindex="-1" aria-labelledby="editeduModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="editeduModal">EDITAR </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="editedu" class="form-label">Título</label>
+              <input type="text" class="form-control" id="editedu">
+          </div>
+            <div class="mb-3">
+              <label for="editinst" class="form-label">Institución</label>
+              <input type="text" class="form-control" id="editinst" aria-describedby="nueva información"> 
+            </div>  
+            <div class="mb-3">
+              <label for="editniv" class="form-label">Nivel</label>
+              <input type="text" class="form-control" id="editniv" aria-describedby="nueva información"> 
+            </div>  
+          <div class="modal-footer">
+            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cerrar</button>
+            <button type="submit" class="btn btn-light">Guardar y Enviar</button>
+            </div>
+            </form>
+          </div> 
+      </div>
+      </div>
+    </div>
+  
+    <!--MODAL AGREGAR Educaión-->
+    <div class="modal fade" id="agregareduModal" tabindex="-1" aria-labelledby="agregareduModal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="agregareduModal">AGREGAR</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="tituloedunuevo" class="form-label">Título</label>
+                <input type="text" class="form-control" id="tituloedunuevo">
+            </div>
+              <div class="mb-3">
+                <label for="nuevainst" class="form-label">Institución</label>
+                <input type="text" class="form-control" id="nuevainst" aria-describedby="nuevo">
+              </div>   
+              <div class="mb-3">
+                <label for="nivedu" class="form-label">Nivel</label>
+                <input type="text" class="form-control" id="nivedu" aria-describedby="nuevo">
+              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cerrar</button>
+              <button type="submit" class="btn btn-light">Guardar y Enviar</button>
+              </div>
+              </form>
+            </div> 
+        </div>
+        </div>
+      </div>
+  
+      <!--BORRAR PROYECTOS Educaion-->
+      <div class="modal fade" id="BorrareduModal" tabindex="-1" aria-labelledby="BorrareduModal" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="BorrareduModal">BORRAR</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+               <P>¿Desea borrar definitivamente?</P>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-light" data-bs-dismiss="modal">NO</button>
+              <button type="button" class="btn btn-light"data-bs-dismiss="modal">SI</button> 
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <!--MODAL EDITAR PROYECTOS-->
+  <div class="modal fade" id="editproyectoModal" tabindex="-1" aria-labelledby="editproyectoModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="editproyectoModal">EDITAR </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="edittitulopro" class="form-label">Título</label>
+              <input type="text" class="form-control" id="edittitulopro">
+          </div>
+            <div class="mb-3">
+              <label for="editañopro" class="form-label">Año</label>
+              <input type="number" class="form-control" id="editañoinst" aria-describedby="nueva información"> 
+            </div>  
+            <div class="mb-3">
+              <label for="editdetallespro" class="form-label">Detalles</label>
+              <textarea class="form-control" id="editdetallespro" aria-describedby="nueva información"> </textarea>
+            </div>  
+          <div class="modal-footer">
+            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cerrar</button>
+            <button type="submit" class="btn btn-light">Guardar y Enviar</button>
+            </div>
+            </form>
+          </div> 
+      </div>
+      </div>
+    </div>
+  
+    <!--MODAL AGREGAR PROYECTO-->
+    <div class="modal fade" id="agregarproModal" tabindex="-1" aria-labelledby="agregarproModal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="agregarproModal">AGREGAR</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="titulopronuevo" class="form-label">Título</label>
+                <input type="text" class="form-control" id="titulopronuevo">
+            </div>
+              <div class="mb-3">
+                <label for="nuevoaño" class="form-label">Año</label>
+                <input type="number" class="form-control" id="nuevoaño" aria-describedby="nuevo">
+              </div>   
+              <div class="mb-3">
+                <label for="nuevodetalle" class="form-label">Detalles</label>
+                <textarea class="form-control" id="nuevodetalle" aria-describedby="nuevo"> </textarea>
+              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cerrar</button>
+              <button type="submit" class="btn btn-light">Guardar y Enviar</button>
+              </div>
+              </form>
+            </div> 
+        </div>
+        </div>
+      </div>
+  
+      <!--BORRAR PROYECTOS-->
+      <div class="modal fade" id="BorrarproModal" tabindex="-1" aria-labelledby="BorrarproModal" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="BorrarproModal">BORRAR</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+               <P>¿Desea borrar definitivamente?</P>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-light" data-bs-dismiss="modal">NO</button>
+              <button type="button" class="btn btn-light"data-bs-dismiss="modal">SI</button> 
+            </div>
+          </div>
+        </div>
+      </div>
+ 
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 <!--finJSBootstrap-->

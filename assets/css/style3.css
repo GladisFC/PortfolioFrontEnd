@@ -100,14 +100,5 @@ body {
     font-size: 1em;
     border: 1mm solid rgb(215, 212, 215);
     font-family: monospace;
-    font-weight: 300;
-    text-align: center;
-}
-
-.a{
-    display: flex;
-    justify-content: center;
-    font-size:xx-small
-    
 }
 
