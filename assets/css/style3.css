@@ -102,8 +102,12 @@ background-color: rgb(202, 209, 216)
     background-color: rgb(255 162 161);
 }
 
+#imgproyecto {
+    width: 30rem;
+}
+
 #columnaproyectos2 {
-    border-bottom: 3mm solid rgb(255 162 161);
+    border-bottom: 3mm solid #ffa2a1;
     border-left: 3mm solid rgb(255 162 161);
     border-right: 3mm solid rgb(255 162 161);
 }
