@@ -75,8 +75,19 @@ body {
 }
 
 #columnahyf1 {
-    border-top: 3mm solid rgb(229 196 114);
-    ;
+    border-top: 3mm solid rgb(229, 196, 114);
+    background-color: rgb(229 196 114);
+}
+
+#hYsk {
+width: 40rem;
+}
+
+.progress {
+background-color: rgb(202, 209, 216)
+}
+
+#barras {
     background-color: rgb(229 196 114);
 }
 
@@ -103,3 +114,5 @@ body {
     border: 1mm solid rgb(215, 212, 215);
     font-family: monospace;
 }
+
+
