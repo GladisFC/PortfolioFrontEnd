@@ -20,31 +20,34 @@
 
 <body>
   <!--BARRA LOGO Y REDES SOCIALES-->
-  <nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-
-      <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar/" target="blank">
-        <img id="logoap" src="assets/img/arg-programa.png" alt="ArgentinaPrograma">
-      </a>
-
-      <ul id="botones" class="list-group list-group-horizontal ml-right">
-        <li class="list-group-item"> <a class="btn btn-light" target="blank"
-            href="https://www.linkedin.com/in/gladis-flores-cespedes-387925257/"> <i
-              class="fa-brands fa-linkedin"></i></a></li>
-        <li class="list-group-item"> <a class="btn btn-light" target="blank" href="https://github.com/GladisFC"> <i
-              class="fa-brands fa-github"></i></a></li>
-        <li class="list-group-item"> <a class="btn btn-light" target="blank"
-            href="https://www.instagram.com/gladisfc1991/"><i class="fa-brands fa-instagram"></i></a></li>
-        <li class="list-group-item"> <a class="btn btn-light" target="blank" href="https://codepen.io/gladisfc"><i
-              class="fa-brands fa-codepen"></i></a></li>
-      </ul>
-
-      <!-- Button trigger modal -->
-      <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#CerrarSesionModal"> CERRAR
-        SECIÓN </button>
-      <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#loginModal"> LOGIN </button>
+  <nav class="navbar navbar-expand-lg" id="nadvar">
+    <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar/" target="blank"> <img id="logoap"
+            src="assets/img/arg-programa.png"> </a>
+    <!--botoneslogin/exit-->
+    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#CerrarSesionModal"><i
+            class="fa-solid fa-lock"></i> </button>
+    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#loginModal"> <i
+            class="fa-solid fa-user"></i></button>
+    <!--boton del menu-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menucolapsable"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--menu colapsable-->
+    <div class="collapse navbar-collapse" id="menucolapsable">
+        <div class="navbar-nav me-auto">
+            <a class="nav-item nav-link" href="https://www.linkedin.com/in/gladis-flores-cespedes-387925257/"
+                target="blank"><i class="fa-brands fa-linkedin-in"></i> LINKEDIN</a>
+            <a class="nav-item nav-link" href="https://www.instagram.com/gladisfc1991/" target="blank"><i
+                    class="fa-brands fa-instagram"></i> INSTAGRAM</a>
+            <a class="nav-item nav-link" href="https://github.com/GladisFC"><i class="fa-brands fa-github"></i>
+                GITHUB</a>
+            <a class="nav-item nav-link" href="https://codepen.io/gladisfc"><i class="fa-brands fa-codepen"></i>
+                CODEPEN</a>
+        </div>
     </div>
-  </nav>
+</nav>
+
 
   <!--LISTA ATAJOS-->
   <div class="container-fluid">

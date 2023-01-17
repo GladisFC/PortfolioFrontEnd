@@ -1,39 +1,8 @@
-.nadvar{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: #c5f3fd
+#nadvar {
+    background-color: #a570c4;
 }
 
-.nadvar a{
-    text-decoration: none;
-    color: inherit;
-}
-
-.logo {
-    margin-right: 50px;
-}
-
-.list {
-    list-style: none;
-    display: flex;
-    gap: 25px;
-}
-
-#toggler,
- .nadvar label{
-    display: none;
-}
-
-@media screen and (max-width: 600px) {
-.menu {
-    width: 100%;
-    max-height: 0;
-    overflow: hidden;
-} 
-.list {
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-}
+#logoap {
+    width:46%;
+    height: auto;
 }

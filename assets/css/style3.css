@@ -1,15 +1,17 @@
-body {
-    margin: 0%;
-    padding: 0%;
+
+
+#nadvar {
+    background-color: #a570c4;
+}
+  
 }
 
-#navbar {
-    background-color: rgba(180, 199, 208, 0.787);
-
+#botones{
+    display: flex;
 }
 
 #logoap {
-    width: 46%;
+    width:46%;
     height: auto;
     margin: 0%
 }
