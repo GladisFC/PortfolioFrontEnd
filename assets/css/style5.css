@@ -54,15 +54,15 @@ border: #A570C4 solid 1px;
 }
 
 #columnafoto {
-    background-color: #c5f3fd;
-    
+   
+   
    
 }
 
 #fotoperfil {
-    width: 80%;
+    max-width: 100%;
     height: auto;
-    padding: 20px
+   
 
 }
 #columnatexto {
