@@ -1,8 +1,142 @@
-#nadvar {
-    background-color: #a570c4;
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #f3eadb;
 }
 
+#nadvar {
+    background-color: #f3eadb;
+    justify-content: center;
+}
+
+
 #logoap {
-    width:46%;
+    width: 46%;
     height: auto;
+    margin: 0%
+}
+
+/*atajos*/
+#container {
+    display: flex;
+    padding: 1%;
+    justify-content: space-around;
+    background-color: #A570C4;
+    
+    
+}
+#menu {
+    display: flex;  
+}
+
+#menu a {
+    color: rgb(64, 65, 65);
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+#menu a:hover {
+    padding: 5px 10px;
+    background:#f3eadb;
+    color:#A570C4;
+    border-radius: 15px;
+    
+}
+
+/*banner*/
+
+#banner{
+border: #A570C4 solid 1px;
+}
+
+#containersobremi{
+    border:#534371 solid;
+}
+
+#columnafoto {
+    background-color: #c5f3fd;
+    
+   
+}
+
+#fotoperfil {
+    width: 80%;
+    height: auto;
+    padding: 20px
+
+}
+#columnatexto {
+    background-color: rgb(239, 211, 239);
+    border-radius: 4mm solido rgb (266 201 206);
+}
+
+
+/* estilo del texto sobre mi*/
+#textsobremi {
+    text-align: center;
+    font-size: large;
+    color: rgb(54, 51, 51);
+}
+
+#columnaexperiencia {
+    background-color: rgb(229 164 146);
+    margin-top: 0em;
+    border-top: 3mm solid rgb(229 164 146);
+}
+
+#columnaexperiencia2 {
+    border-bottom: 3mm solid rgb(229 164 146);
+    border-left: 3mm solid rgb(229 164 146);
+    border-right: 3mm solid rgb(229 164 146);
+}
+
+
+
+#columnaeducación1 {
+    background-color: rgb(229 189 146);
+    border-top: 3mm solid rgb(229 189 146);
+}
+
+#columnaeducación2 {
+    border-bottom: 3mm solid rgb(229 189 146);
+    border-left: 3mm solid rgb(229 189 146);
+    border-right: 3mm solid rgb(229 189 146);
+}
+
+#columnahyf1 {
+    border-top: 3mm solid rgb(229, 196, 114);
+    background-color: rgb(229 196 114);
+}
+
+#hYsk {
+    width: 40rem;
+}
+
+.progress {
+    background-color: rgb(202, 209, 216)
+}
+
+#barras {
+    background-color: rgb(229 196 114);
+}
+
+#columnaporcentajes {
+    border-bottom: 3mm solid rgb(229 196 114);
+    border-left: 3mm solid rgb(229 196 114);
+    border-right: 3mm solid rgb(229 196 114)
+}
+
+#columnaproyectos {
+    border-top: 3mm solid rgb(255 162 161);
+    background-color: rgb(255 162 161);
+}
+
+#imgproyecto {
+    width: 30rem;
+}
+
+#columnaproyectos2 {
+    border-bottom: 3mm solid #ffa2a1;
+    border-left: 3mm solid rgb(255 162 161);
+    border-right: 3mm solid rgb(255 162 161);
 }
