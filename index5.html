@@ -19,8 +19,7 @@
 
 <body>
 <!--nadvar-->
-    <nav class="navbar navbar-expand-sm" id="nadvar">
-        
+    <nav class="navbar nadvar-expand-lg fixed-top sticky-top scrolling-nadvar" id="nadvar">
         <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar/" target="blank"> <img id="logoap"
                 src="assets/img/arg-programa.png"></a>
             
@@ -43,24 +42,29 @@
                     CODEPEN</a>
             </div>
         </div>
+        <div>
         <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#CerrarSesionModal"><i
             class="fa-solid fa-lock"></i> </button>
             
     <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#loginModal"> <i
             class="fa-solid fa-user"></i></button>
+        </div>
+       
+            <div class="container-fluid border rounded-4" id="container">
+                <div class="row d-flex align-items-center justify-content-space-around ">
+                <div class="col"id="menu"><a href="#">Sobre Mi</a></div>
+                <div class="col"id="menu"><a href="#">Eduacación </a></div>
+                <div class="col"id="menu"><a href="#">Hard & Soft Skills </a></div>
+                <div class="col"id="menu"><a href="#">Proyectos </a></div>
+                </div> 
+             </div>
+       
     </nav>
 
-    <!--LISTA ATAJOS-->
-    <div id="container" class="border rounded-4">
-    <div id="menu"><a href="#">Sobre Mi</a></div>
-    <div id="menu"><a href="#">Eduacación </a></div>
-    <div id="menu"><a href="#">Hard & Soft Skills </a></div>
-    <div id="menu"><a href="#">Proyectos </a></div>
-    </div>
-
+   
     <!--contenedor BANNER FOTO INFO-->
     <div class="container-fluid p-3">
-        <div class="row">
+        <div class="row d-flex align-items-center justify-content-center">
             <div class="col text-center">
                 <img src="assets/img/2022-11-27.png" class="img-fluid rounded-4" id="banner">
             </div>
@@ -68,32 +72,24 @@
     </div>
 
     <!--foto perfil-->
-    <div class="container-fluid text-center border-1 rounded-4" id="containersobremi">
-        <div class="row">
-            <div class="col-4 " id="columnafoto">
-                <img src="assets/img/20211002_085133.jpg" class="img-fluid img-thumbnail" id="fotoperfil">
-            </div>
-
-            <div class="col-8 border rounded-4" id="columnatexto">
-                <p class="font-monospace" id="textsobremi">¡Hola!, soy Gladis Flores de Neuquén Capital, tengo 31 años.
-                    <br>Soy
-                    estudiante avanzada de Historia, y actualmente me dedico a dar clases particulares de ciencias
-                    sociales y
-                    didáctica. <br> Desde hace un año me involucre en el mundo de la programación y espero poder llegar
-                    muy lejos.
-                    Tengo el objetivo de poder usar estos nuevos conocimientos en mi carrera como docente, con el fin de
-                    crear
-                    material didáctico novedoso para mis futuros estudiantes.
-                </p>
-            </div>
+    <div class="container-fluid rounded-4" id="containersobremi">
+        <div class="row ">
+          <div class="col-sm-12 col-md-4" id="colfoto">
+            <img src="assets/img/20211002_085133.jpg" id="fotoperfil" class="img-fluid img-thumbnail mx-auto d-block">
+          </div>
+          <div class="col-sm-12 col-md-8 d-flex align-items-center justify-content-center rounded-4" id="columnatexto">
+            <p>Soy
+                estudiante avanzada de Historia, y actualmente me dedico a dar clases particulares de ciencias
+                sociales y
+                didáctica. <br> Desde hace un año me involucre en el mundo de la programación y espero poder llegar
+                muy lejos.
+                Tengo el objetivo de poder usar estos nuevos conocimientos en mi carrera como docente, con el fin de
+                crear
+                material didáctico novedoso para mis futuros estudiantes.</p>
+          </div>
         </div>
-    </div>
-
-            <div class="col" class="font-monospace">
-                <a href="#logoap" class="btn btn-light"> SUBIR</a>
-            </div>
-        </div>
-    </div>
+      </div>
+    
 
     <!--BOTONES EDIT SOBRE MI-->
     <section>
