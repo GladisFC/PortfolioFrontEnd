@@ -20,10 +20,8 @@ body {
 #container {
     display: flex;
     padding: 1%;
-    justify-content: space-around;
-    background-color: #A570C4;
-    
-    
+    background-color: #A570C4; 
+    justify-content: space-around;  
 }
 #menu {
     display: flex;  
@@ -47,36 +45,41 @@ body {
 
 #banner{
 border: #A570C4 solid 1px;
+max-width: 100% ;
+height: auto;
 }
 
 #containersobremi{
     border:#534371 solid;
 }
 
-#columnafoto {
-   
-   
-   
+h2 {
+    font-family: 'Bungee Shade', Arial;
+    color:#534371;
+    text-decoration: underline;
+
 }
+
+#colfoto{
+    padding: 2%;
+}
+
 
 #fotoperfil {
-    max-width: 100%;
-    height: auto;
-   
-
+    max-width:50%;
+    height: auto; 
 }
+
 #columnatexto {
     background-color: rgb(239, 211, 239);
     border-radius: 4mm solido rgb (266 201 206);
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
-/* estilo del texto sobre mi*/
-#textsobremi {
-    text-align: center;
-    font-size: large;
-    color: rgb(54, 51, 51);
-}
+
+  
 
 #columnaexperiencia {
     background-color: rgb(229 164 146);

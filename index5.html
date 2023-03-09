@@ -15,53 +15,57 @@
     <script src="https://kit.fontawesome.com/5308abbab4.js" crossorigin="anonymous"></script>
     <!--stilo css-->
     <link rel="stylesheet" href="assets/css/style5.css">
+    <!--GOOGLEFONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet"></link>
+
 </head>
 
 <body>
-<!--nadvar-->
-    <nav class="navbar nadvar-expand-lg fixed-top sticky-top scrolling-nadvar" id="nadvar">
+    <!--nadvar2-->
+    <!--logo-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top sticky-top scrolling-nadvar" id="nadvar">
         <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar/" target="blank"> <img id="logoap"
-                src="assets/img/arg-programa.png"></a>
-            
-          
-        <!--boton del menu-->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menucolapsable"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!--menu colapsable-->
-        <div class="collapse navbar-collapse" id="menucolapsable">
+            src="assets/img/arg-programa.png"></a>
+    <!--menu colapsable-->
+         <!--boton del menu-->
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menucolapsable"
+         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+     </button>
+     <!--menu colapsable-->
+     <div class="collapse navbar-collapse" id="menucolapsable">
+            <!--lista redes-->
             <div class="navbar-nav me-auto">
                 <a class="nav-item nav-link" href="https://www.linkedin.com/in/gladis-flores-cespedes-387925257/"
                     target="blank"><i class="fa-brands fa-linkedin-in"></i> LINKEDIN</a>
                 <a class="nav-item nav-link" href="https://www.instagram.com/gladisfc1991/" target="blank"><i
-                        class="fa-brands fa-instagram"></i> INSTAGRAM</a>
-                <a class="nav-item nav-link" href="https://github.com/GladisFC"><i class="fa-brands fa-github"></i>
+                        class="fa-brands fa-instagram" target="blank"></i> INSTAGRAM</a>
+                <a class="nav-item nav-link" href="https://github.com/GladisFC" target="blank"><i class="fa-brands fa-github"></i>
                     GITHUB</a>
-                <a class="nav-item nav-link" href="https://codepen.io/gladisfc"><i class="fa-brands fa-codepen"></i>
+                <a class="nav-item nav-link" href="https://codepen.io/gladisfc" target="blank"><i class="fa-brands fa-codepen"></i>
                     CODEPEN</a>
             </div>
+          <!--lista atajos -->
+          <div class="navbar-nav me-auto">
+            <div class="col"id="menu"><a href="#fotoperfil">Sobre Mi</a></div>
+            <div class="col"id="menu"><a href="#">Eduacación </a></div>
+            <div class="col"id="menu"><a href="#">Hard & Soft Skills </a></div>
+            <div class="col"id="menu"><a href="#">Proyectos </a></div>
+          </div>
+          <!--lista login-->
+          <div class="navbar-nav me-auto">
+            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#CerrarSesionModal"><i
+                class="fa-solid fa-lock"></i> </button>
+                
+        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#loginModal"> <i
+                class="fa-solid fa-user"></i></button>
+          </div>
         </div>
-        <div>
-        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#CerrarSesionModal"><i
-            class="fa-solid fa-lock"></i> </button>
-            
-    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#loginModal"> <i
-            class="fa-solid fa-user"></i></button>
-        </div>
-       
-            <div class="container-fluid border rounded-4" id="container">
-                <div class="row d-flex align-items-center justify-content-space-around ">
-                <div class="col"id="menu"><a href="#">Sobre Mi</a></div>
-                <div class="col"id="menu"><a href="#">Eduacación </a></div>
-                <div class="col"id="menu"><a href="#">Hard & Soft Skills </a></div>
-                <div class="col"id="menu"><a href="#">Proyectos </a></div>
-                </div> 
-             </div>
-       
-    </nav>
-
-   
+      </nav>
+      
+    
     <!--contenedor BANNER FOTO INFO-->
     <div class="container-fluid p-3">
         <div class="row d-flex align-items-center justify-content-center">
@@ -73,7 +77,7 @@
 
     <!--foto perfil-->
     <div class="container-fluid rounded-4" id="containersobremi">
-        <div class="row ">
+        <div class="row text-center p-4"> <h2> SOBRE MI </h2>
           <div class="col-sm-12 col-md-4" id="colfoto">
             <img src="assets/img/20211002_085133.jpg" id="fotoperfil" class="img-fluid img-thumbnail mx-auto d-block">
           </div>
