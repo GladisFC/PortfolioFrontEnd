@@ -6,7 +6,8 @@ body {
 
 #nadvar {
     background-color: #f3eadb;
-    justify-content: center;
+    border-bottom: 3px solid #534371;
+    align-content: space-between;
 }
 
 
@@ -15,31 +16,16 @@ body {
     height: auto;
     margin: 0%
 }
-
+/*redes*/
+#redes {
+    background-color: #b99cc9;
+}
 /*atajos*/
-#container {
-    display: flex;
-    padding: 1%;
-    background-color: #A570C4; 
-    justify-content: space-around;  
-}
-#menu {
-    display: flex;  
+#atajos {
+    background-color:#b99cc9; 
+    justify-content:center;
 }
 
-#menu a {
-    color: rgb(64, 65, 65);
-    text-decoration: none;
-    transition: all 0.5s ease;
-}
-
-#menu a:hover {
-    padding: 5px 10px;
-    background:#f3eadb;
-    color:#A570C4;
-    border-radius: 15px;
-    
-}
 
 /*banner*/
 
