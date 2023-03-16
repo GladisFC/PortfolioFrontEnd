@@ -1,131 +1,217 @@
 body {
-    width: 100%;
-    height: 100%;
-    background-color: #f3eadb;
+  width: 100%;
+  height: 100%;
+  background-color: #f7ead3;
 }
+
+/*----------------nadvar----------------*/
 
 #nadvar {
-    background-color: #f3eadb;
-    border-bottom: 3px solid #534371;
-    align-content: space-between;
+  background-color: ;
+  border-bottom: 3px solid #534371;
+  border-top: 3px solid #534371;
+  border-left: 3px solid #534371 ;
+  border-right: 3px solid #534371 ;
+  align-content: space-between;
+  
 }
-
 
 #logoap {
-    width: 46%;
-    height: auto;
-    margin: 0%
+  width: 46%;
+  height: auto;
+  margin: 0%
 }
+
 /*redes*/
 #redes {
-    background-color: #b99cc9;
+  background-color: #b99cc9;
 }
+
 /*atajos*/
 #atajos {
-    background-color:#b99cc9; 
-    justify-content:center;
+  background-color: #b99cc9;
+  justify-content: center;
+  color: rgb(85, 90, 90);
 }
 
-
-/*banner*/
-
-#banner{
-border: #A570C4 solid 1px;
-max-width: 100% ;
-height: auto;
+.btn{
+  background-color: #b99cc9;
 }
 
-#containersobremi{
-    border:#534371 solid;
+/*----------------banner---------------*/
+
+#banner {
+  border: #A570C4 solid 1px;
+  max-width: 100%;
+  height: auto;
+}
+
+/*----------------SOBRE MI----------------*/
+#containersobremi {
+  border: #534371 solid;
 }
 
 h2 {
-    font-family: 'Bungee Shade', Arial;
-    color:#534371;
-    text-decoration: underline;
-
-}
-
-#colfoto{
-    padding: 2%;
+  font-family: 'Bungee Shade', Arial;
+  color: #534371;
 }
 
 
 #fotoperfil {
-    max-width:50%;
-    height: auto; 
+  max-width: 50%;
+  height: auto;
 }
 
 #columnatexto {
-    background-color: rgb(239, 211, 239);
-    border-radius: 4mm solido rgb (266 201 206);
-    align-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: #efd3ef;
+  border-radius: 4mm solido rgb (266 201 206);
+  align-content: center;
+  color: rgb(85, 90, 90);
+}
+
+/*---------EXPERIENCIA-------------*/
+
+#experiencia {
+  border: #534371 solid 3px;
+}
+
+
+/*-------COLUMNAS--------*/
+#columnas {
+  border: 3mm solid #efd3ef;
+}
+
+
+/*--------------EDUCACIÓN--------------*/
+
+#educacion {
+  border: #534371 solid 3px;
+}
+
+
+/*--------------HYSF--------------*/
+#hys {
+  border: #534371 solid 3px;
+}
+
+#colhys {
+  border: #534371 solid 1px;
+}
+
+
+.progress-title {
+  font-size: large;
+  color: rgb(85, 90, 90)
 }
 
 
 
-  
-
-#columnaexperiencia {
-    background-color: rgb(229 164 146);
-    margin-top: 0em;
-    border-top: 3mm solid rgb(229 164 146);
+.progress-circle {
+  position: relative;
+  display: inline-block;
+  margin: 1rem;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #ebebeb;
 }
 
-#columnaexperiencia2 {
-    border-bottom: 3mm solid rgb(229 164 146);
-    border-left: 3mm solid rgb(229 164 146);
-    border-right: 3mm solid rgb(229 164 146);
+.progress-circle:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -webkit-animation: colorload 2s;
+  animation: colorload 2s;
+}
+
+.progress-circle span {
+  font-size: 1rem;
+  color: #8b8b8b;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: block;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  margin-left: -45px;
+  margin-top: -45px;
+  text-align: center;
+  border-radius: 50%;
+  background: #fff;
+  z-index: 1;
+}
+
+.progress-circle span:after {
+  content: "%";
+  font-weight: 600;
+  color: #8b8b8b;
+}
+
+.progress-circle.progress-70:after {
+  background-image: linear-gradient(-18deg, #efd3ef 50%, transparent 50%, transparent), linear-gradient(270deg, #efd3ef 50%, #ebebeb 50%, #ebebeb);
+}
+
+.progress-circle.progress-73:after {
+  background-image: linear-gradient(-7.2deg, #efd3ef 50%, transparent 50%, transparent), linear-gradient(270deg, #efd3ef 50%, #ebebeb 50%, #ebebeb);
+}
+
+.progress-circle.progress-80:after {
+  background-image: linear-gradient(18deg, #efd3ef 50%, transparent 50%, transparent), linear-gradient(270deg, #efd3ef 50%, #ebebeb 50%, #ebebeb);
+}
+
+.progress-circle.progress-43:after {
+  background-image: linear-gradient(90deg, #efd3ef 50%, transparent 50%, transparent), linear-gradient(244.8deg, #efd3ef 50%, #ebebeb 50%, #ebebeb);
+}
+
+.progress-circle.progress-50:after {
+  background-image: linear-gradient(-90deg, #efd3ef 50%, transparent 50%, transparent), linear-gradient(270deg, #efd3ef 50%, #ebebeb 50%, #ebebeb);
+}
+
+.progress-circle.progress-75:after {
+  background-image: linear-gradient(0deg, #efd3ef 50%, transparent 50%, transparent), linear-gradient(270deg, #efd3ef 50%, #ebebeb 50%, #ebebeb);
+}
+
+.progress-circle.progress-100:after {
+  background-image: linear-gradient(90deg, #efd3ef 50%, transparent 50%, transparent), linear-gradient(270deg, #efd3ef 50%, #ebebeb 50%, #ebebeb);
+}
+
+@-webkit-keyframes colorload {
+  0% {
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotate(360deg);
+  }
 }
 
 
 
-#columnaeducación1 {
-    background-color: rgb(229 189 146);
-    border-top: 3mm solid rgb(229 189 146);
+
+/*-------------------PROYECTOS----------------*/
+
+#proyectos {
+  border: #534371 solid 3px;
 }
 
-#columnaeducación2 {
-    border-bottom: 3mm solid rgb(229 189 146);
-    border-left: 3mm solid rgb(229 189 146);
-    border-right: 3mm solid rgb(229 189 146);
+
+/*--------------------MODALES------------------*/
+
+.modal-title { 
+color: #534371;
 }
 
-#columnahyf1 {
-    border-top: 3mm solid rgb(229, 196, 114);
-    background-color: rgb(229 196 114);
+.modal-dialog{
+  background-color: #534371;
+  border: #534371 solid 4px;
+  color:#A570C4
+}
+.btn{
+  background-color: #b99cc9;
 }
 
-#hYsk {
-    width: 40rem;
-}
-
-.progress {
-    background-color: rgb(202, 209, 216)
-}
-
-#barras {
-    background-color: rgb(229 196 114);
-}
-
-#columnaporcentajes {
-    border-bottom: 3mm solid rgb(229 196 114);
-    border-left: 3mm solid rgb(229 196 114);
-    border-right: 3mm solid rgb(229 196 114)
-}
-
-#columnaproyectos {
-    border-top: 3mm solid rgb(255 162 161);
-    background-color: rgb(255 162 161);
-}
-
-#imgproyecto {
-    width: 30rem;
-}
-
-#columnaproyectos2 {
-    border-bottom: 3mm solid #ffa2a1;
-    border-left: 3mm solid rgb(255 162 161);
-    border-right: 3mm solid rgb(255 162 161);
-}
