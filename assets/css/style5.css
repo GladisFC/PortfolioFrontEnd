@@ -22,10 +22,23 @@ body {
   margin: 0%
 }
 
+a {
+  color: rgb(64, 65, 65);
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+a:hover {
+  padding: 5px 10px;
+  background:#f3eadb;
+  color:#c4a470;
+  border-radius: 15px;
+  
+}
 /*redes*/
 #redes {
   background-color: #b99cc9;
-}
+  }
 
 /*atajos*/
 #atajos {
