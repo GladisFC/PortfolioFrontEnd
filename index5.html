@@ -28,7 +28,7 @@
 <body>
     <!--nadvar2-->
     <!--logo-->
-    <nav class="navbar navbar-expand-lg fixed-top sticky-top scrolling-nadvar d-flex justify-content-space-beetwen"
+    <nav class="navbar navbar-expand-lg fixed-top sticky-top scrolling-nadvar d-flex"
         id="nadvar">
         <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar/" target="blank"> <img id="logoap"
                 src="assets/img/arg-programa.png"></a>
@@ -40,7 +40,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <!--menu colapsable-->
-        <div class="collapse navbar-collapse text-center" id="menucolapsable">
+        <div class="collapse navbar-collapse text-center flex-colum" id="menucolapsable">
             <!--lista atajos -->
             <div class="navbar-nav rounded-4 text-center" id="atajos">
                 <a class="nav-item nav-link" href="#sobremi"> Sobre Mi </a>
@@ -63,21 +63,21 @@
                             class="fa-brands fa-codepen"></i></a>
                 </div>
             </section>
-             <!--lista login-->
-         <section>
-        <button type="button" class="btn btn-light" id="botonnadvar" data-bs-toggle="modal" data-bs-target="#CerrarSesionModal"><i
-                class="fa-solid fa-lock"></i> </button>
+            <!--lista login-->
+            <section>
+                <button type="button" class="btn btn-light" id="botonnadvar" data-bs-toggle="modal"
+                    data-bs-target="#CerrarSesionModal"><i class="fa-solid fa-lock"></i> </button>
 
-        <button type="button" class="btn btn-light" id="botonnadvar" data-bs-toggle="modal" data-bs-target="#loginModal"> <i
-                class="fa-solid fa-user"></i></button>
-</section> 
+                <button type="button" class="btn btn-light" id="botonnadvar" data-bs-toggle="modal"
+                    data-bs-target="#loginModal"> <i class="fa-solid fa-user"></i></button>
+            </section>
         </div>
-       
+
     </nav>
 
 
     <!-----BANNER FOTO INFO------>
-    <div class="container-fluid p-3">
+    <div class="container-fluid lg p-3">
         <div class="row d-flex align-items-center justify-content-center">
             <div class="col text-center">
                 <img src="assets/img/2022-11-27.png" class="img-fluid rounded-4" id="banner">
@@ -97,23 +97,24 @@
     </section>
 
     <!--SOBRE MI-->
-    <div class="container-fluid rounded-4" id="containersobremi">
-        <div class="row text-center p-2" id="sobremi">
+    <div class="container-fluid  rounded-4" id="containersobremi">
+        <div class="row d-flex justify-content-center align-items-center text-center p-2" id="sobremi">
             <h2>SOBRE MI</h2>
-            <div class="col-sm-12 col-md-4">
-                <img src="assets/img/20211002_085133.jpg" id="fotoperfil"
-                    class="img-fluid img-thumbnail mx-auto d-block">
+            <div class="col-sm-12 col-md-3 d-flex rounded-4" >
+                <img src="assets/img/20211002_085133.jpg" 
+                    class="img-fluid img-thumbnail mx-auto d-block" id="fotoperfil">
             </div>
-            <div class="col-sm-12 col-md-8 d-flex align-items-center justify-content-center rounded-4"
+            <div class="col-sm-12 col-md-8 d-flex rounded-4"
                 id="columnatexto">
-                <p>Soy
-                    estudiante avanzada de Historia, y actualmente me dedico a dar clases particulares de ciencias
-                    sociales y
+                <p class="text-center">¡Hola! Mi nombre es Gladis Flores Cespedes. <br>
+                    Soy estudiante avanzada de Historia y actualmente me dedico a dar clases particulares de ciencias
+                    sociales, así como también de 
                     didáctica. <br> Desde hace un año me involucre en el mundo de la programación y espero poder llegar
                     muy lejos.
                     Tengo el objetivo de poder usar estos nuevos conocimientos en mi carrera como docente, con el fin de
                     crear
-                    material didáctico novedoso para mis futuros estudiantes.<p>
+                    material didáctico novedoso para mis futuros estudiantes.
+                <p>
             </div>
         </div>
     </div>
@@ -135,11 +136,11 @@
     </section>
 
     <!--------educación--------->
-    <div class="container-fluid text-center rounded-4" id="educacion">
+    <div class="container-fluid text-center  rounded-4" id="educacion">
         <div class="row text-center p-2">
             <h2> EDUCACIÓN </h2>
-            <div class="col-12 rounded-4" id="columnas">
-                <table class="table table-striped">
+            <div class="table-responsive text-sm rounded-4" id="columnas">
+                <table class="table table-striped ">
                     <tr>
                         <th>Título</th>
                         <th>Institución</th>
@@ -193,67 +194,100 @@
 
     <div class="progress-circle-container text-center container-fluid rounded-4 p-3" id="hys">
         <h2>HARD AND SOFT SKILLS</h2>
-          
-         <section class="rounded-4" id="colhys"> 
-    <div class="row d-flex align-items-center justify-content-center p-2">
-         <div class="col">  
-            <div class="progress-circle progress-70"><span>70</span></div> <h5 class="progress-title"> <i class="fa-brands fa-html5"></i></h5>  
-        </div>
 
-        <div class="col">
-            <div class="progress-circle progress-73"><span>73</span></div> <h5 class="progress-title"><i class="fa-brands fa-css3-alt"></i></h5> 
-        </div>
+        <section class="rounded-4" id="colhys">
+            <div class="row d-flex align-items-center justify-content-center p-2">
+                <div class="col">
+                    <div class="progress-circle progress-75"><span>75</span></div>
+                    <h5 class="progress-title"><i class="fa-brands fa-github"></i>
+                    </h5>
+                </div>
+                <div class="col">
+                    <div class="progress-circle progress-70"><span>70</span></div>
+                    <h5 class="progress-title"> <i class="fa-brands fa-html5"></i></h5>
+                </div>
 
-        <div class="col">
-            <div class="progress-circle progress-80"><span>80</span></div><h5 class="progress-title"><i class="fa-brands fa-bootstrap"></i>
-        </h5></div>
-        <div class="col">
-            <div class="progress-circle progress-43"><span>43</span></div><h5 class="progress-title"><i class="fa-brands fa-js"></i></h5>
-        </div>
-        <div class="col">
-            <div class="progress-circle progress-50"><span>50</span></div>  <h5 class="progress-title"><i class="fa-brands fa-php"></i>
-        </h5></div>
-        <div class="col">
-            <div class="progress-circle progress-50"><span>50</span></div><h5 class="progress-title"><i class="fa-brands fa-python"></i>
-        </h5></div>
-        <div class="col">
-            <div class="progress-circle progress-75"><span>75</span></div><h5 class="progress-title"><i class="fa-brands fa-angular"></i>
-        </h5></div>
-        <div class="col">
-            <div class="progress-circle progress-75"><span>75</span></div><h5 class="progress-title"><i class="fa-brands fa-github"></i>
-        </h5></div>
-        <div class="col">
-            <div class="progress-circle progress-50"><span>50</span></div>  <h5 class="progress-title">MySQL</h5>
-        </div>
-        <div class="col">
-            <div class="progress-circle progress-50"><span>50</span></div><h5 class="progress-title">MongoDB</h5>
-        </div>
-      </div>
-    </section>  
-    <section class="rounded-4" id="colhys">
-      <div class="row d-flex align-items-center justify-content-center p-2">
-      <div class="col">  
-        <div class="progress-circle progress-100"><span>100</span></div> <h5 class="progress-title">Adaptibilidad</h5>
-      </div>
-      
-      <div class="col">
-        <div class="progress-circle progress-75"><span>75</span></div><h5 class="progress-title">Comunicación efectiva</h5></div>
-        
-      <div class="col">
-        <div class="progress-circle progress-75"><span>75</span></div><h5 class="progress-title">Trabajo en equipo</h5></div>
+                <div class="col">
+                    <div class="progress-circle progress-73"><span>73</span></div>
+                    <h5 class="progress-title"><i class="fa-brands fa-css3-alt"></i></h5>
+                </div>
 
-        <div class="col">
-            <div class="progress-circle progress-100"><span>100</span></div> <h5 class="progress-title">Aprendizaje contínuo</h5></div>
+                <div class="col">
+                    <div class="progress-circle progress-80"><span>80</span></div>
+                    <h5 class="progress-title"><i class="fa-brands fa-bootstrap"></i>
+                    </h5>
+                </div>
+                <div class="col">
+                    <div class="progress-circle progress-43"><span>43</span></div>
+                    <h5 class="progress-title"><i class="fa-brands fa-js"></i></h5>
+                </div>
+                <div class="col">
+                    <div class="progress-circle progress-75"><span>75</span></div>
+                    <h5 class="progress-title"><i class="fa-brands fa-angular"></i>
+                    </h5>
+                </div>
+                <div class="col">
+                    <div class="progress-circle progress-50"><span>50</span></div>
+                    <h5 class="progress-title"><i class="fa-brands fa-java"></i>
+                    </h5>
+                </div>
+                <div class="col">
+                    <div class="progress-circle progress-50"><span>50</span></div>
+                    <h5 class="progress-title"><i class="fa-brands fa-php"></i>
+                    </h5>
+                </div>
+                <div class="col">
+                    <div class="progress-circle progress-50"><span>50</span></div>
+                    <h5 class="progress-title"><i class="fa-brands fa-python"></i>
+                    </h5>
+                </div>
 
-        <div class="col">
-            <div class="progress-circle progress-100"><span>100</span></div> <h5 class="progress-title">Responsabilidad</h5></div>
 
-        <div class="col">
-            <div class="progress-circle progress-100"><span>100</span></div> <h5 class="progress-title">Organización</h5></div>
+                <div class="col">
+                    <div class="progress-circle progress-50"><span>50</span></div>
+                    <h5 class="progress-title">MySQL</h5>
+                </div>
+                <div class="col">
+                    <div class="progress-circle progress-50"><span>50</span></div>
+                    <h5 class="progress-title">MongoDB</h5>
+                </div>
+            </div>
+        </section>
+        <section class="rounded-4" id="colhys">
+            <div class="row d-flex align-items-center justify-content-center p-2">
+                <div class="col">
+                    <div class="progress-circle progress-100"><span>100</span></div>
+                    <h5 class="progress-title">Adaptibilidad</h5>
+                </div>
+
+                <div class="col">
+                    <div class="progress-circle progress-75"><span>75</span></div>
+                    <h5 class="progress-title">Comunicación efectiva</h5>
+                </div>
+
+                <div class="col">
+                    <div class="progress-circle progress-75"><span>75</span></div>
+                    <h5 class="progress-title">Trabajo en equipo</h5>
+                </div>
+
+                <div class="col">
+                    <div class="progress-circle progress-100"><span>100</span></div>
+                    <h5 class="progress-title">Aprendizaje contínuo</h5>
+                </div>
+
+                <div class="col">
+                    <div class="progress-circle progress-100"><span>100</span></div>
+                    <h5 class="progress-title">Responsabilidad</h5>
+                </div>
+
+                <div class="col">
+                    <div class="progress-circle progress-100"><span>100</span></div>
+                    <h5 class="progress-title">Organización</h5>
+                </div>
+            </div>
+        </section>
     </div>
-</section>
-  </div>
-        </div>
+    </div>
     </div>
 
     <!--BOTONES EDIT HABILIDADES-->
@@ -261,7 +295,7 @@
         <div class="container-fluid text-center">
             <div class="row align-items-start">
                 <div class="col">
-                    <button class="btn btn-light">EDITAR</button>
+                    <button class="btn btn-light ">EDITAR</button>
                     <button class="btn btn-light">AGREGAR INFO</button>
                     <button class="btn btn-light">BORRAR</button>
                 </div>
@@ -274,7 +308,7 @@
     <div class="container-fluid text-center rounded-4" id="experiencia">
         <div class="row text-center p-2">
             <h2> EXPERIENCIA </h2>
-            <div class="col-12 rounded-4" id="columnas">
+            <div class="table-responsive rounded-4" id="columnas">
                 <table class="table table-striped">
                     <tr>
                         <th> AÑO</th>
@@ -312,7 +346,7 @@
     <div class="container-fluid text-center rounded-4" id="proyectos">
         <div class="row text-center p-2">
             <h2> PROYECTOS</h2>
-            <div class="col-12 rounded-4" id="columnas">
+        <div class="table-responsive rounded-4" id="columnas">
                 <table class="table table-striped">
                     <tr>
                         <th>Título</th>
@@ -405,8 +439,8 @@
         </div>
     </div>
 
-     <!--MODAL EDICIÓN BANNER-->
-     <div class="modal fade" id="edfotoBanner" tabindex="-1" aria-labelledby="edfotoBanner" aria-hidden="true">
+    <!--MODAL EDICIÓN BANNER-->
+    <div class="modal fade" id="edfotoBanner" tabindex="-1" aria-labelledby="edfotoBanner" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
