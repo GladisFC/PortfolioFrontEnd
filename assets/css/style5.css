@@ -201,20 +201,6 @@ h2 {
   background-image: linear-gradient(90deg, #efd3ef 50%, transparent 50%, transparent), linear-gradient(270deg, #efd3ef 50%, #ebebeb 50%, #ebebeb);
 }
 
-@-webkit-keyframes colorload {
-  0% {
-    opacity: 0;
-    transform: rotate(0deg);
-  }
-
-  100% {
-    opacity: 1;
-    transform: rotate(360deg);
-  }
-}
-
-
-
 
 /*-------------------PROYECTOS----------------*/
 
