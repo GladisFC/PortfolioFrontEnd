@@ -28,8 +28,7 @@
 <body>
     <!--nadvar2-->
     <!--logo-->
-    <nav class="navbar navbar-expand-lg fixed-top sticky-top scrolling-nadvar d-flex"
-        id="nadvar">
+    <nav class="navbar navbar-expand-lg fixed-top sticky-top scrolling-nadvar d-flex" id="nadvar">
         <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar/" target="blank"> <img id="logoap"
                 src="assets/img/arg-programa.png"></a>
         <!--menu colapsable-->
@@ -100,15 +99,14 @@
     <div class="container-fluid  rounded-4" id="containersobremi">
         <div class="row d-flex justify-content-center align-items-center text-center p-2" id="sobremi">
             <h2>SOBRE MI</h2>
-            <div class="col-sm-12 col-md-3 d-flex rounded-4" >
-                <img src="assets/img/20211002_085133.jpg" 
-                    class="img-fluid img-thumbnail mx-auto d-block" id="fotoperfil">
+            <div class="col-sm-12 col-md-3 d-flex rounded-4">
+                <img src="assets/img/20211002_085133.jpg" class="img-fluid img-thumbnail mx-auto d-block"
+                    id="fotoperfil">
             </div>
-            <div class="col-sm-12 col-md-8 d-flex rounded-4"
-                id="columnatexto">
+            <div class="col-sm-12 col-md-8 d-flex rounded-4" id="columnatexto">
                 <p class="text-center">¡Hola! Mi nombre es Gladis Flores Cespedes. <br>
                     Soy estudiante avanzada de Historia y actualmente me dedico a dar clases particulares de ciencias
-                    sociales, así como también de 
+                    sociales, así como también de
                     didáctica. <br> Desde hace un año me involucre en el mundo de la programación y espero poder llegar
                     muy lejos.
                     Tengo el objetivo de poder usar estos nuevos conocimientos en mi carrera como docente, con el fin de
@@ -204,45 +202,40 @@
                 </div>
                 <div class="col">
                     <div class="progress-circle progress-70"><span>70</span></div>
-                    <h5 class="progress-title"> <i class="fa-brands fa-html5"></i></h5>
+                    <h5 class="progress-title">HTML5</h5>
                 </div>
 
                 <div class="col">
                     <div class="progress-circle progress-73"><span>73</span></div>
-                    <h5 class="progress-title"><i class="fa-brands fa-css3-alt"></i></h5>
+                    <h5 class="progress-title">CSS</h5>
                 </div>
 
                 <div class="col">
                     <div class="progress-circle progress-80"><span>80</span></div>
-                    <h5 class="progress-title"><i class="fa-brands fa-bootstrap"></i>
+                    <h5 class="progress-title">Bootstrap</i>
                     </h5>
                 </div>
                 <div class="col">
                     <div class="progress-circle progress-43"><span>43</span></div>
-                    <h5 class="progress-title"><i class="fa-brands fa-js"></i></h5>
+                    <h5 class="progress-title">Typescript</h5>
                 </div>
                 <div class="col">
                     <div class="progress-circle progress-75"><span>75</span></div>
-                    <h5 class="progress-title"><i class="fa-brands fa-angular"></i>
+                    <h5 class="progress-title">Angular</h5>
+                </div>
+                <div class="col">
+                    <div class="progress-circle progress-50"><span>50</span></div>
+                    <h5 class="progress-title">Java</h5>
+                </div>
+                <div class="col">
+                    <div class="progress-circle progress-50"><span>50</span></div>
+                    <h5 class="progress-title">Php
                     </h5>
                 </div>
                 <div class="col">
                     <div class="progress-circle progress-50"><span>50</span></div>
-                    <h5 class="progress-title"><i class="fa-brands fa-java"></i>
-                    </h5>
+                    <h5 class="progress-title">Python</h5>
                 </div>
-                <div class="col">
-                    <div class="progress-circle progress-50"><span>50</span></div>
-                    <h5 class="progress-title"><i class="fa-brands fa-php"></i>
-                    </h5>
-                </div>
-                <div class="col">
-                    <div class="progress-circle progress-50"><span>50</span></div>
-                    <h5 class="progress-title"><i class="fa-brands fa-python"></i>
-                    </h5>
-                </div>
-
-
                 <div class="col">
                     <div class="progress-circle progress-50"><span>50</span></div>
                     <h5 class="progress-title">MySQL</h5>
@@ -295,9 +288,12 @@
         <div class="container-fluid text-center">
             <div class="row align-items-start">
                 <div class="col">
-                    <button class="btn btn-light ">EDITAR</button>
-                    <button class="btn btn-light">AGREGAR INFO</button>
-                    <button class="btn btn-light">BORRAR</button>
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal"
+                        data-bs-target="#editHYSModal">EDITAR </button>
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal"
+                        data-bs-target="#agregarHYSModal">AGREGAR </button>
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal"
+                        data-bs-target="#BorrarHYSModal">BORRAR </button>
                 </div>
             </div>
         </div>
@@ -346,7 +342,7 @@
     <div class="container-fluid text-center rounded-4" id="proyectos">
         <div class="row text-center p-2">
             <h2> PROYECTOS</h2>
-        <div class="table-responsive rounded-4" id="columnas">
+            <div class="table-responsive rounded-4" id="columnas">
                 <table class="table table-striped">
                     <tr>
                         <th>Título</th>
@@ -384,10 +380,6 @@
             </div>
         </div>
     </section>
-
-
-
-
 
     <!--MODAL CERRAR SESIÓN-->
     <div class="modal fade" id="CerrarSesionModal" tabindex="-1" aria-labelledby="CerrarSesionModal" aria-hidden="true">
@@ -633,7 +625,7 @@
         </div>
     </div>
 
-    <!--MODAL AGREGAR Educaión-->
+    <!--MODAL AGREGAR Educación-->
     <div class="modal fade" id="agregareduModal" tabindex="-1" aria-labelledby="agregareduModal" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -665,7 +657,7 @@
         </div>
     </div>
 
-    <!--BORRAR PROYECTOS Educaion-->
+    <!--BORRAR PROYECTOS Educacion-->
     <div class="modal fade" id="BorrareduModal" tabindex="-1" aria-labelledby="BorrareduModal" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -769,7 +761,83 @@
         </div>
     </div>
 
+    <!---MODAL EDITAR HYS-->
+    <div class="modal fade" id="editHYSModal" tabindex="-1" aria-labelledby="editHYSModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="editHYSModal">EDITAR </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="edittitulopro" class="form-label">Habilidad</label>
+                            <input type="text" class="form-control" id="editHabilidad">
+                        </div>
+                        <div class="mb-3">
+                            <label for="editcantidad" class="form-label">Porcentaje</label>
+                            <input type="number" id="porcentaje" min="0" max="100" step="0.01"
+                            class="form-control">
+                        </div>
+                        
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="submit" class="btn btn-light">Guardar y Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!---MODAL BORRAR HABILIDAD --->
+    <div class="modal fade" id="BorrarHYSModal" tabindex="-1" aria-labelledby="BorrarHYSModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="BorrarHYSModal">BORRAR</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <P>¿Desea borrar definitivamente?</P>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">NO</button>
+                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">SI</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---MODAL AGREGAR HABILIDADES--->
+
+    <div class="modal fade" id="agregarHYSModal" tabindex="-1" aria-labelledby="agregarHYSModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="agregarHYSModal">NUEVA HABILIDAD</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="habilidadnueva" class="form-label">Habilidad</label>
+                            <input type="text" class="form-control" id="habilidadnueva">
+                        </div>
+                        <div class="mb-3">
+                            <label for="editcantidad" class="form-label">Porcentaje</label>
+                            <input type="number" id="porcentaje" min="0" max="100" step="0.01"
+                            class="form-control">
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="submit" class="btn btn-light">Guardar y Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
